@@ -1,0 +1,14 @@
+{
+    "name": "agentfire/test_task",
+    "type": "whmcs-addon",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AgentFire\\": "src"
+        }
+    },
+    "require": {
+        "twig/twig": "^2.0",
+        "php-curl-class/php-curl-class": "^8.6"
+    }
+}

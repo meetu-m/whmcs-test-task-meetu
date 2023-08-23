@@ -1,0 +1,4 @@
+<h2>Job Queue</h2>
+{% for cron_task in cron_tasks %}
+    {{ loop.index }} - {{ cron_task.payload }} - {{ cron_task.status }}<br>
+{% endfor %}
